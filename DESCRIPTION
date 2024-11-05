@@ -1,9 +1,9 @@
 Package: pray
 Type: Package
-Title: What the Package Does (Title Case)
-Version: 0.0.1
+Title: Display ASCII Art of Objects for Prayers in the Console
+Version: 0.1.0
 Author: YutoriSpine
-Maintainer: YutoriSpine <https://twitter.com/spine_surgeon_>
+Maintainer: YutoriSpine <YutoriSpine@users.noreply.github.com>
 Description: More about what it does (maybe more than one line)
     Use four spaces when indenting paragraphs within the Description.
 License: MIT + file LICENSE
