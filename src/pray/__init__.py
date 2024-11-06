@@ -29,5 +29,20 @@ def shinto():
     print("   ")
 
 
-def main():
-    shinto()
+def norito():
+    print("   ")
+    print("幸　守　神　清　祓")
+    print("え　り　な　め　え")
+    print("給　給　が　給　給")
+    print("え　い　ら　え　い")
+    print("   ")
+
+
+def omairi():
+    print("   ")
+    print("🙇")
+    print("🙇")
+    print("🙏")
+    print("🙏")
+    print("🙇")
+    print("   ")

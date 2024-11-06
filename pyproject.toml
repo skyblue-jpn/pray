@@ -13,13 +13,12 @@
     requires      = [ "hatchling" ]
 
 [project.scripts]
-    shinto = "pray:main"
+    norito = "pray:norito"
+    omairi = "pray:omairi"
+    shinto = "pray:shinto"
 
 [project.urls]
     homepage = "https://github.com/skyblue-jpn/pray"
 
 [tool.setuptools]
     package-dir = { "" = "src" }
-
-[tool.hatch.build.tagets.wheel]
-    packages = [ "src", "src/pray" ]
