@@ -1,12 +1,5 @@
-#' @title Display Shinto Shrine ASCII Art
-#'
-#' @description The `shinto()` function outputs a simple ASCII art representation of a Shinto shrine to the console.
-#'
-#' @return NULL
-#' @export
-#'
-#' @examples
-#' shinto()
+def hello() -> str:
+    return "Hello from pray!"
 
 
 def shinto():
@@ -34,3 +27,7 @@ def shinto():
     print("  :::::::::::::::/                          \\::::::::::::::::")
     print("   ")
     print("   ")
+
+
+def main():
+    shinto()

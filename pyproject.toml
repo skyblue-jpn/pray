@@ -1,10 +1,25 @@
 [project]
+    authors         = [ { name = "skyblue-jpn", email = "82032866+skyblue-jpn@users.noreply.github.com" } ]
     dependencies    = [  ]
-    description     = "Add your description here"
+    description     = "Display Shinto Shrine ASCII Art"
+    license         = "MIT"
     name            = "pray"
     readme          = "README.md"
-    requires-python = ">=3.13"
+    requires-python = ">=3.6"
     version         = "0.1.0"
 
-[dependency-groups]
-    dev = [ "ipykernel>=6.29.5" ]
+[build-system]
+    build-backend = "hatchling.build"
+    requires      = [ "hatchling" ]
+
+[project.scripts]
+    shinto = "pray:main"
+
+[project.urls]
+    homepage = "https://github.com/skyblue-jpn/pray"
+
+[tool.setuptools]
+    package-dir = { "" = "src" }
+
+[tool.hatch.build.tagets.wheel]
+    packages = [ "src", "src/pray" ]
