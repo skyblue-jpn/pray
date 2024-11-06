@@ -33,4 +33,3 @@ shinto <- function() {
   cat("   \n")
   cat("   \n")
 }
-
